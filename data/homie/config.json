@@ -1,0 +1,19 @@
+{
+  "name": "yamaha",
+  "device_id": "yamaha-wifi-home",
+  "wifi": {
+    "ssid": "YourSSID",
+    "password": "SuperSecure"
+  },
+  "mqtt": {
+    "host": "192.168.1.1",
+    "port": 1883,
+    "base_topic": "homie/",
+    "auth": true,
+    "username": "brokerusername",
+    "password": "brokerpassword"
+  },
+  "ota": {
+    "enabled": true
+  }
+}
