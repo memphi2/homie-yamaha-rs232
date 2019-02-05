@@ -20,7 +20,7 @@ GND Pin ESP8266 <---> GND Pin converter module
 
 5V  Pin ESP8266 <---> VCC Pin converter module
 
-#openhab Integration
+# openhab Integration
 See [here](https://community.openhab.org/t/integration-of-older-yamaha-rx-v-av-receivers-rs-232-serial/65204)
 
 
