@@ -1,6 +1,6 @@
 {
   "name": "yamaha",
-  "device_id": "yamaha-wifi-home",
+  "device_id": "serial-wifi-home",
   "wifi": {
     "ssid": "YourSSID",
     "password": "SuperSecure"
