@@ -2,9 +2,9 @@
 RS232 Control for Yamaha AV-Receivers
 
 This simple code uses
-[homie-esp8266](https://github.com/marvinroger/homie-esp8266) to create a wifi
+[homie-esp8266](https://github.com/homieiot/homie-esp8266/tree/develop-v3) to create a wifi
 control that will talk to my [openhab](https://openhab.org/) via
-MQTT, following the [homie](https://github.com/marvinroger/homie/tree/master)
+MQTT, following the [homie](https://homieiot.github.io/)
 convention for IoT.
 
 # Connect ESP8266 with your Receiver
