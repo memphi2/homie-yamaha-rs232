@@ -2,14 +2,14 @@
 RS232 Control for Yamaha AV-Receivers
 
 This simple code uses
-[homie-esp8266](https://github.com/homieiot/homie-esp8266/tree/develop-v3) to create a wifi
+[homie-esp8266](https://github.com/homieiot/homie-esp8266/) to create a wifi
 control that will talk to my [openhab](https://openhab.org/) via
 MQTT, following the [homie](https://homieiot.github.io/)
 convention for IoT.
 
 # Connect ESP8266 with your Receiver
 
-I'm using a simple [max232](https://www.amazon.de/FITYLE-MAX232-Konverter-Modul-USB-Seriell-Konversion-Mehrfarbig/dp/B079RGQTLG/ref=sr_1_11?ie=UTF8&qid=1552064756&sr=8-11) RS232 to TTL Serial Port converter Module with DB9 connector. Be sure that CTS line is held high(Shortcut RTS & CTS) by the module, otherwise your receiver won't send any data.
+I'm using a simple [max232] RS232 to TTL Serial Port converter Module with DB9 connector. Be sure that CTS line is held high(Shortcut RTS & CTS) by the module, otherwise your receiver won't send any data.
 Just connect :
 
 TxD Pin ESP8266 <---> RxD Pin converter module
